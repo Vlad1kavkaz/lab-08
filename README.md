@@ -4,6 +4,7 @@
 
 # Task 1
 To begin with, let's make a server. Let's use a ready-made solution in `Python`:
+![1](https://github.com/Vlad1kavkaz/lab08/assets/112761204/483affe3-42f4-437b-ac71-ad7509efe5c4)
 
 `server.py` contents:
 ```
@@ -28,6 +29,7 @@ print(decodedContent)
 
 fp.close()
 ```
+![2](https://github.com/Vlad1kavkaz/lab08/assets/112761204/0c683b5c-e364-45a4-9045-d069a86909ab)
 
 Next, we will make a `Dockerfile` for each part of the application
 `Dockerfile` contents for server:
@@ -118,4 +120,4 @@ jobs:
       run: |
         docker-compose up -d
 ```
-![Снимок экрана от 2023-04-19 20-01-54](https://user-images.githubusercontent.com/125737299/233682044-73aa2d6b-d0d7-47f9-b604-dda1cd192992.png)
+![3](https://github.com/Vlad1kavkaz/lab08/assets/112761204/820362e4-9df9-4347-90bf-2d98fb366f96)
